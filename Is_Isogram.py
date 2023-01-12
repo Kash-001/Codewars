@@ -1,5 +1,5 @@
-def is_isogram(string):
-    a = 0
+def is_isogram(string: str):
+    a, string = 0, string.upper()
     for s in string:
-        a += string.count(s)
+        a = a + string.count(s)
     return True if a == len(string) else False
