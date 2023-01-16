@@ -7,4 +7,4 @@ def count_positives_sum_negatives(arr: list):
             rets[1] += a
         else:
             pass
-    return rets if arr != [] else []
+    return rets if arr != [] else [] 
